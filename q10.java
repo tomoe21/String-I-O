@@ -4,12 +4,10 @@ public class q10 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Prompt the user for a string
         System.out.print("Enter a string: ");
         String inputString = scanner.nextLine();
 
         while (true) {
-            // Display menu options
             System.out.println("\n--- String Operations Menu ---");
             System.out.println("1. Convert to lowercase");
             System.out.println("2. Convert to uppercase");
